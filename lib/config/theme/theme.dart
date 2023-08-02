@@ -3,9 +3,8 @@ import 'package:flutter/material.dart';
 final theme = ThemeData(
   primaryColor: Colors.blue,
   hintColor: Colors.blueAccent,
-
+  useMaterial3: true,
   fontFamily: 'Roboto',
-
   textTheme: const TextTheme(
     displayLarge: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
     displayMedium: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
@@ -16,7 +15,6 @@ final theme = ThemeData(
     bodyLarge: TextStyle(fontSize: 16.0),
     bodyMedium: TextStyle(fontSize: 14.0),
   ),
-
   buttonTheme: const ButtonThemeData(
     buttonColor: Colors.blue,
     textTheme: ButtonTextTheme.primary,
